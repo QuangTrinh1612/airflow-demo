@@ -17,7 +17,7 @@ def dag2():
         retries=4
     )
     def get_nums():
-        return [1, 2, 3]
+        return [4, 5, 6]
 
     @task
     def times_2(num):
